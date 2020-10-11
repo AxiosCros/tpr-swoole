@@ -1,0 +1,36 @@
+{
+  "name": "axios/tpr-swoole",
+  "description": "Use TPR framework with swoole",
+  "keywords": [
+    "http",
+    "tcp",
+    "socket",
+    "swoole",
+    "tpr"
+  ],
+  "homepage": "https://github.com/AxiosCros/tpr-swoole",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Axios Leo",
+      "email": "axiosleo@foxmail.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/AxiosCros/tpr-workerman/issues"
+  },
+  "require": {
+    "php": ">=7.4",
+    "axios/tpr": "^5.0.1",
+    "ext-swoole": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "tpr\\server\\swoole\\": "src/"
+    }
+  },
+  "require-dev": {
+    "symfony/var-dumper": "*",
+    "swoft/swoole-ide-helper": "^4.4"
+  }
+}
